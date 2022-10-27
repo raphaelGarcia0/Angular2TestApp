@@ -1,0 +1,42 @@
+a{
+    color: wheat;
+    text-decoration: none;
+}
+.all-pages {
+    padding: 30px 0;
+}
+
+.top-bt {
+    margin: 0 0 15px 0;
+}
+
+.custom-card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.custom-tbl tr th, .custom-tbl tr td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.custom-tbl tr:last-child td {
+    border: navajowhite;
+    border: none4;
+}
+
+.custom-tbl button {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 5px;
+    font-size: 12px;
+    margin: 0 5px;
+}
+.btn.btn-primary {
+    background: #0d6efd;
+}
+.btn.btn-danger {
+    background: #dc3545;
+}

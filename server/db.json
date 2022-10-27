@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "songs": [
+    {
+      "artist": "ram",
+      "title": "setu movie",
+      "year": "2022",
+      "id": 6
+    },
+    {
+      "artist": "palpl",
+      "title": ",jhsgchas",
+      "year": "26565",
+      "id": 7
+    },
+    {
+      "artist": "test2",
+      "title": "trixky56",
+      "year": "prk singh",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

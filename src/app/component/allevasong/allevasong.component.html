@@ -1,0 +1,37 @@
+<div class="all-pages">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="top-bt">
+          <button type="button" class="btn btn-primary"><a routerLink="/create"> Create Songs</a>  </button>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="custom-card">
+          <table class="table table-striped custom-tbl">
+            <tr>
+              <th>Id</th>
+              <th>Artist</th>
+              <th>Title</th>
+              <th>Year</th>
+              <th>Action</th>
+            </tr>
+            <tr *ngFor="let data of Alldata">
+                <td>{{data.id}}</td>
+                <td>{{data.artist}}</td>
+                <td>{{data.title}}</td>
+                <td>{{data.year}}</td>
+               <td> <button type="button" class="btn btn-primary"><a routerLink="/update/{{data.id}}">Edit</a></button>
+                <button type="button" class="btn btn-danger" (click)="Delete(data.id)">delete</button></td>
+               
+               
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
